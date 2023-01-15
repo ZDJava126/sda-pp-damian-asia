@@ -1,8 +1,9 @@
 package com.sda.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.*;
-
+@Entity
 @NoArgsConstructor
 @Getter
 @Setter
